@@ -1,6 +1,6 @@
 
-import '../../api/Documents/methods';
-import '../../api/Documents/server/publications';
+// import '../../api/Documents/methods';
+// import '../../api/Documents/server/publications';
 
 import '../../api/Invoices/methods';
 import '../../api/Invoices/server/publications';
