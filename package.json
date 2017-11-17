@@ -11,6 +11,7 @@
     "accounting-js": "^1.1.1",
     "babel-runtime": "^6.26.0",
     "bcrypt": "^1.0.3",
+    "bulma": "^0.6.1",
     "commonmark": "^0.28.1",
     "core-js": "^2.5.1",
     "es5-shim": "^4.5.9",
