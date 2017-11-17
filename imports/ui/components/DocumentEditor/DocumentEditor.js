@@ -21,10 +21,10 @@ class DocumentEditor extends React.Component {
       },
       messages: {
         title: {
-          required: 'Need a title in here, Seuss.',
+          required: 'Need a title in here, please.',
         },
         body: {
-          required: 'This thneeds a body, please.',
+          required: 'This needs a body, please.',
         },
       },
       submitHandler() { component.handleSubmit(); },

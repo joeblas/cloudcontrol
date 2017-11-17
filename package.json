@@ -13,6 +13,7 @@
     "bcrypt": "^1.0.3",
     "commonmark": "^0.28.1",
     "core-js": "^2.5.1",
+    "es5-shim": "^4.5.9",
     "fs": "0.0.1-security",
     "handlebars": "^4.0.10",
     "html-pdf": "^2.2.0",
