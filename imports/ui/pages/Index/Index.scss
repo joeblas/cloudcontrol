@@ -3,7 +3,7 @@
 
 .Index {
   padding: 20px;
-  background: $cb-blue;
+  
   text-align: center;
   border-radius: 3px;
   color: #fff;
@@ -15,11 +15,12 @@
 
   h1 {
     font-size: 28px;
+    color: #028ECC;
   }
 
   p {
     font-size: 18px;
-    color: lighten($cb-blue, 25%);
+    color: #028ECC;
   }
 
   > div {
@@ -43,12 +44,12 @@
     p {
       font-size: 14px;
       line-height: 22px;
-      color: lighten($cb-blue, 35%);
+      color: white;
       margin: 0;
     }
 
     p a {
-      color: lighten($cb-blue, 35%);
+      color: white;
       text-decoration: underline;
     }
   }
