@@ -4,7 +4,6 @@ import { Meteor } from 'meteor/meteor';
 import { createContainer } from 'meteor/react-meteor-data';
 import { ReactiveVar } from 'meteor/reactive-var';
 import PageHeader from '../../components/PageHeader/PageHeader';
-import Content from '../../components/Content/Content';
 
 import './Page.scss';
 
