@@ -34,7 +34,7 @@ const handleLoadCheckout = (invoiceId) => {
 
 const handlePayment = (amount, total) => {
   checkout.open({
-    name: 'Beagle Bone Invoices',
+    name: 'Cloud Control',
     description: `Pay invoice for ${total}`,
     amount,
   });
