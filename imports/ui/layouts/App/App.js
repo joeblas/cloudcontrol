@@ -63,7 +63,6 @@ const App = props => (
           <Route name="verify-email" path="/verify-email/:token" component={VerifyEmail} />
           <Route name="recover-password" path="/recover-password" component={RecoverPassword} />
           <Route name="reset-password" path="/reset-password/:token" component={ResetPassword} />
-          <Route name="examplePage" path="/example-page" component={ExamplePage} />
           <Route component={NotFound} />
         </Switch>
       </Grid>
