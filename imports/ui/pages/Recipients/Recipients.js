@@ -19,6 +19,8 @@ const Recipients = ({ loading, recipients, match, history }) => (!loading ? (
       <thead>
         <tr>
           <th>Name</th>
+          <th>Total Due</th>
+          <th>Total Paid</th>
         </tr>
       </thead>
       <tbody>
