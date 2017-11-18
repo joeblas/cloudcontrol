@@ -1,3 +1,22 @@
+@import '../../stylesheets/mixins';
+@import '../../stylesheets/colors';
+
 .Invoices table tr:hover {
     cursor: pointer;
   }
+
+  .btn-success {
+    background-color: $success;
+    border: $success;
+    
+  }
+
+  .btn-success:hover {
+    background-color: #01597F;
+  }
+
+  .btn-success:active:hover, .btn-success:active:focus {
+    background-color: #012C40;
+  }
+
+  

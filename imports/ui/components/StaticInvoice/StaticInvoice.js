@@ -17,7 +17,7 @@ const handleLoadCheckout = (invoiceId) => {
   loadStripeCheckout(() => {
     checkout = StripeCheckout.configure({
       key: Meteor.settings.public.stripe,
-      image: 'https://s3-us-west-2.amazonaws.com/cleverbeagle-assets/graphics/oauth.png',
+      image: 'https://i.imgur.com/ItfU52c.png',
       locale: 'auto',
       token(token) {
         Meteor.call('invoices.pay', { invoiceId, source: token.id }, (error) => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Navbar } from 'react-bootstrap';
+import { Navbar, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import PublicNavigation from '../PublicNavigation/PublicNavigation';
 import AuthenticatedNavigation from '../AuthenticatedNavigation/AuthenticatedNavigation';
@@ -11,7 +11,7 @@ const Navigation = props => (
   <Navbar>
     <Navbar.Header>
       <Navbar.Brand>
-        <Link to="/">CloudControl</Link>
+        <Link to="/"><Image responsive="true" src="https://i.imgur.com/u81KdVP.png"/></Link>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
