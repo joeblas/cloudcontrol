@@ -1,6 +1,8 @@
 @import '../../stylesheets/mixins';
 @import '../../stylesheets/colors';
 
+
+
 html {
   position: relative;
   min-height: 100%;
@@ -36,14 +38,13 @@ body {
     }
 
     a {
-      color: $gray-light;
+      color: white;
     }
 
     a:hover,
     a:active,
     a:focus {
-      text-decoration: none;
-      color: $gray;
+      color: white;
     }
   }
 }
