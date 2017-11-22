@@ -12,6 +12,7 @@ bootstrapUtils.addStyle(Jumbotron, 'custom');
 
 const Index = () => (
   <div>
+
  <style type="text/css">{`
  .jumbotron-custom {
      background-color: white;
@@ -34,6 +35,8 @@ const Index = () => (
     </Row>
   <div className="Index">
   </div>
+
+
   </div>
 );
 
