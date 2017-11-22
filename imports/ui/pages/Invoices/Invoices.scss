@@ -5,17 +5,17 @@
     cursor: pointer;
   }
 
-  .btn-success {
+  .btn-info {
     background-color: $success;
     border: $success;
     
   }
 
-  .btn-success:hover {
+  .btn-info:hover {
     background-color: #01597F;
   }
 
-  .btn-success:active:hover, .btn-success:active:focus {
+  .btn-info:active:hover, .btn-info:active:focus {
     background-color: #012C40;
   }
 

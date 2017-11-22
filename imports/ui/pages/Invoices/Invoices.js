@@ -26,7 +26,7 @@ const Invoices = ({ loading, invoices, match, history }) => (!loading ? (
   <div className="Invoices">
     <div className="page-header clearfix">
       <h4 className="pull-left">Invoices</h4>
-      <Link className="btn btn-success pull-right" to={`${match.url}/new`}>New Invoice</Link>
+      <Link className="btn btn-info pull-right" to={`${match.url}/new`}>New Invoice</Link>
     </div>
     {invoices.length ? <Table hover responsive>
       <thead>
