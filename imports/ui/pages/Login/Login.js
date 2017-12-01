@@ -92,7 +92,7 @@ class Login extends React.Component {
             </FormGroup>
             <Button type="submit" bsStyle="success">Log In</Button>
             <AccountPageFooter>
-              <p>{'Don\'t have an account?'} <Link to="/signup">Sign Up</Link>.</p>
+              <p>{'Don\'t have an account?'} <Link to="/signup" className="footerLink">Sign Up</Link>.</p>
             </AccountPageFooter>
           </form>
         </Col>

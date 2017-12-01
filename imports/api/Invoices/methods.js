@@ -10,7 +10,7 @@ import rateLimit from '../../modules/rate-limit';
 import { centsToDollars, formatAsCurrency } from '../../modules/currency-conversions';
 import generateInvoiceAsPDF from '../../modules/server/generate-invoice-as-pdf';
 
-const stripe = Stripe(Meteor.settings.private.stripe);
+const stripe = Stripe(Meteor.settings.stripe);
 
 const totalLineItems = lineItems =>
   lineItems.reduce((sum, { amount, quantity }) => {

@@ -141,7 +141,7 @@ class Signup extends React.Component {
             </FormGroup>
             <Button type="submit" bsStyle="success">Sign Up</Button>
             <AccountPageFooter>
-              <p>Already have an account? <Link to="/login">Log In</Link>.</p>
+              <p>Already have an account? <Link to="/login" className="footerLink">Log In</Link>.</p>
             </AccountPageFooter>
           </form>
         </Col>
