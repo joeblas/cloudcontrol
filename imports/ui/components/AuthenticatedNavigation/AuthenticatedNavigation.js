@@ -5,6 +5,8 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import { Meteor } from 'meteor/meteor';
 
+import '../Navigation/Navigation.scss';
+
 const AuthenticatedNavigation = ({ name, history }) => (
   <div>
     <Nav>
