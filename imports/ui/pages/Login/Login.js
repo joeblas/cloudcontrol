@@ -55,12 +55,13 @@ class Login extends React.Component {
   render() {
     return (<div className="Login">
       <Row>
-        <Col xs={12} sm={6} md={5} lg={4}>
+        <Col xs={12} sm={4} md={4} lg={4}></Col>
+        <Col xs={12} sm={4} md={4} lg={4}>
           <h4 className="page-header">Log In</h4>
           <Row>
             <Col xs={12}>
               <OAuthLoginButtons
-                services={['facebook', 'github', 'google']}
+                services={['facebook', 'google']}
                 emailMessage={{
                   offset: 100,
                   text: 'Log In with an Email Address',
@@ -96,6 +97,7 @@ class Login extends React.Component {
             </AccountPageFooter>
           </form>
         </Col>
+        <Col xs={12} sm={4} md={4} lg={4}></Col>
       </Row>
     </div>);
   }

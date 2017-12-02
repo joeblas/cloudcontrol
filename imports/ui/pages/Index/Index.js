@@ -30,7 +30,7 @@ const Index = () => (
       </Jumbotron>
     </Col>
     <Col md="6" sm="12" lg="6">
-      <Image responsive="true" className="col-md-offset-3" src="https://i.imgur.com/hcyPRbP.jpg"/>
+      <Image responsive="true" className="col-md-offset-2" src="https://i.imgur.com/hcyPRbP.jpg"/>
     </Col>
     </Row>
   <div className="Index">

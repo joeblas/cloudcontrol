@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, FormGroup, ControlLabel, Button } from 'react-bootstrap';
+import { Row, Col, FormGroup, ControlLabel, Button, Image } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Meteor } from 'meteor/meteor';
@@ -82,12 +82,14 @@ class Signup extends React.Component {
   render() {
     return (<div className="Signup">
       <Row>
-        <Col xs={12} sm={6} md={5} lg={4}>
+      <Col xs={12} sm={4} md={4} lg={4}></Col>
+      <Col xs={12} sm={4} md={4} lg={4}>
+
           <h4 className="page-header">Sign Up</h4>
           <Row>
             <Col xs={12}>
               <OAuthLoginButtons
-                services={['facebook', 'github', 'google']}
+                services={['facebook', 'google']}
                 emailMessage={{
                   offset: 97,
                   text: 'Sign Up with an Email Address',
@@ -145,6 +147,7 @@ class Signup extends React.Component {
             </AccountPageFooter>
           </form>
         </Col>
+        <Col xs={12} sm={4} md={4} lg={4}></Col>
       </Row>
     </div>);
   }
