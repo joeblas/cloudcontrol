@@ -34,7 +34,7 @@ const Invoices = ({ loading, invoices, match, history }) => (!loading ? (
           <th />
           <th className="text-center">Status</th>
           <th>Created</th>
-          <th>Client</th>
+          {/* <th>Client</th> */}
           <th>Subject</th>
           <th className="text-center">Total Amount</th>
         </tr>
@@ -45,7 +45,7 @@ const Invoices = ({ loading, invoices, match, history }) => (!loading ? (
             <td>#{number}</td>
             <td className="text-center">{getInvoiceLabel(status)}</td>
             <td>{monthDayYear(createdAt)}</td>
-            <td><strong>{recipient}</strong></td>
+            {/* <td><strong>{recipient}</strong></td> */}
             <td><p>{subject}</p></td>
             <td className="text-center">{formatAsCurrency(centsToDollars(total))}</td>
           </tr>
